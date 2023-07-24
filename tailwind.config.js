@@ -14,7 +14,13 @@ module.exports = {
       'gray-light': '#d3dce6',
       'white':'#FFFFFF',
       'from-gradient':'#F4F4F4',
-      
+      'grid-to' : '#F00',
+      'grid-end' : '#FF8938',
+      'fresh-tea' : '#E6A6231A',
+      'red-100' : '#fee2e2',
+      'amber-100':'#fef3c7',
+      'slate-300':'#cbd5e1',
+      'gray-100':'#f3f4f6',
     },
     fontFamily: {
       'monrope': ['Manrope'],

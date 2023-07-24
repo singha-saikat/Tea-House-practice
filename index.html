@@ -42,7 +42,7 @@
             <img src="./images/banner.png" alt="" />
 
             <div
-              class="flex items-center gap-1 w-[180px] h-24 rounded-lg bg-white drop-shadow-lg justify-center -mt-20 ml-20 lg:-mt-28 ml-28"
+              class="flex items-center gap-1 w-[180px] h-24 rounded-lg bg-white drop-shadow-lg justify-center -mt-20 ml-20 lg:-mt-28 ml-32"
             >
               <i class="fa-regular fa-star text-yellow text-3xl"></i>
 
@@ -59,61 +59,108 @@
     <!-- Featured Section -->
     <section>
       <div class="max-w-screen-xl mx-auto p-2 lg:p-4 space-y-5">
-        <h3 class="text-3xl md:text-4xl lg:text-5xl text-center">Our Featured Products</h3>
+        <h3 class="text-3xl md:text-4xl lg:text-5xl text-center">
+          Our Featured Products
+        </h3>
         <p class="max-w-4xl mx-auto text-center mb-4">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
         </p>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-4 md-8 lg:p-10">
+      
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-4 md-8 lg:p-10 mb-4"
+      >
         <!-- card-1 -->
-        
-          <div class="card  bg-gradient-to-r from-from-gradient to-from-gradient to-100% ">
-            <figure class="px-10 pt-10">
-              <img src="./images/tea-1.png" alt="tea-1" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Milk Tea</h2>
-              <p>Creamer could be replaced by fresh milk</p>
-            </div>
-          </div>
-        <!-- card-2 -->
-        
-          <div class="card  bg-gradient-to-r from-from-gradient to-from-gradient to-100% ">
-            <figure class="px-10 pt-10">
-              <img src="./images/tea-2.png" alt="tea-2" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Milk Tea</h2>
-              <p>Creamer could be replaced by fresh milk</p>
-            </div>
-          </div>
-        <!-- card-3 -->
-        
-          <div class="card  bg-gradient-to-r from-from-gradient to-from-gradient to-100% ">
-            <figure class="px-10 pt-10">
-              <img src="./images/tea-3.png" alt="tea-3" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Milk Tea</h2>
-              <p>Creamer could be replaced by fresh milk</p>
-            </div>
-          </div>
-        <!-- card-4 -->
-        
-          <div class="card  bg-gradient-to-r from-from-gradient to-from-gradient to-100% ">
-            <figure class="px-10 pt-10">
-              <img src="./images/tea-4.png" alt="tea-3" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Milk Tea</h2>
-              <p>Creamer could be replaced by fresh milk</p>
-            </div>
-          </div>
 
-        
+        <div
+          class="card bg-gradient-to-r from-from-gradient to-from-gradient to-100%"
+        >
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-1.png" alt="tea-1" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- card-2 -->
+
+        <div
+          class="card bg-gradient-to-r from-from-gradient to-from-gradient to-100%"
+        >
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-2.png" alt="tea-2" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- card-3 -->
+
+        <div
+          class="card bg-gradient-to-r from-from-gradient to-from-gradient to-100%"
+        >
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-3.png" alt="tea-3" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- card-4 -->
+
+        <div
+          class="card bg-gradient-to-r from-from-gradient to-from-gradient to-100%"
+        >
+          <figure class="px-10 pt-10">
+            <img src="./images/tea-4.png" alt="tea-3" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
       </div>
+    </div>
+    </section>
+    <!-- Grid layout section -->
+
+    <section>
+       <div class="max-w-screen-xl mx-auto p-2 lg:p-4 flex gap-6 items-center">
+         <div class="grid grid-cols-1 md:grid-cols-2 rounded-2xl gap-5 flex-1">
+           <div class="bg-gradient-to-r from-red-100 to-amber-100 h-32 rounded-xl">
+                
+           </div>
+           <div class="row-span-2 bg-fresh-tea rounded-lg px-8 py-12 flex justify-center items-center">
+            <img src="./images/fresh-1.png" alt="Fresh-1">
+           </div>
+           <div class="row-span-2 bg-fresh-tea flex justify-center items-center rounded-xl">
+            <img src="./images/fresh-2.png" alt="fresh-2">
+           </div>
+           <div class="bg-gradient-to-r bg-slate-300  to-gray-50  h-32 rounded-xl">
+
+           </div>
+
+         </div>
+         <div class="flex-1">
+          <h3 class="text-5xl font-extrabold">Great Tea, Freshly <br>
+            Presented</h3>
+        <p>
+            The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It
+            represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and unique customized service orginated
+            from Taiwan.
+        </p>
+        <h4 class="text-xl font-extrabold">Unique Taste</h4>
+        <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+        <h4 class="text-xl font-extrabold mt-8">Premium Quality</h4>
+        <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+         </div>
+
+       </div>
     </section>
   </body>
 </html>
